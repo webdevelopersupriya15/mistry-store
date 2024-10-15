@@ -1,0 +1,46 @@
+.explore-price{
+    box-shadow:0 0 12px 0 rgba(0,0,0,.06);
+    border:0 0 12px 0 rgba(0,0,0,.06);
+    border-radius: 16px;
+    padding: 30px 20px ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* .slick-slide {
+    margin: 0 10px;
+  } 
+  .slick-list {
+    margin: 0 -10px;
+  } */
+.mobilemenu{
+  z-index: 99;
+  left:0
+}
+.mobileheader{
+  z-index: 99;
+}
+.mobilemenu{
+  padding: 10px;
+  transition: 0.5s;
+  z-index: 999;
+}
+.mobilemenu li{
+  margin-top: 10px;
+}
+.modalDivOverlay{
+  display: none;
+  
+}
+.overLayShow{
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 99;
+}
+.frame{
+   background:url(../icons/offer-frame.png);
+   background-size: cover;
+   background-position: center;
+}

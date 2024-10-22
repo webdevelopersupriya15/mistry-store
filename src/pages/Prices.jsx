@@ -32,7 +32,7 @@ export default function Prices() {
     {
       breakpoint: 600,
       settings: {
-        slidesToShow: 2,
+        slidesToShow: 6,
         slidesToScroll: 1,
         initialSlide: 2
       }
